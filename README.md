@@ -2,11 +2,11 @@
 
   A simplified application for biologists in JavaFX, which helps them study genes. Each Gene has a name, organism, function and an associated sequence. The gene sequence is composed only of the letters {'A', 'C', 'G', 'T'}, which represent the nucleotides. We have the following 5 items in our connected database:
      
-     1. yqgE | E_Coli_K12 | facilitates stress-induced mutagenesis | ATGAATTTACAGCAT
-     2. ppiA | M_tuberculosis | is thought to facilitiate proper protein folding | TTTCATCACCGTCGG
-     3. Col2a1 | Human | helps in making one component of collagen | TTAAAGCATGGCTCTGTG
-     4. TP53 | Human | codes for a tumor suppressor protein | CTCAAAAGTCTAGAGCCACCGTC
-     5. hokC | E_Coli_K12 | synthetizes a host killing protein | TTAATGAAGCATAAGCTTGATTTC
+      yqgE | E_Coli_K12 | facilitates stress-induced mutagenesis | ATGAATTTACAGCAT
+      ppiA | M_tuberculosis | is thought to facilitiate proper protein folding | TTTCATCACCGTCGG
+      Col2a1 | Human | helps in making one component of collagen | TTAAAGCATGGCTCTGTG
+      TP53 | Human | codes for a tumor suppressor protein | CTCAAAAGTCTAGAGCCACCGTC
+      hokC | E_Coli_K12 | synthetizes a host killing protein | TTAATGAAGCATAAGCTTGATTTC
     
   We have the following functionalities: 
     1. Visualize all genes in a list (name, organism, function, sequence), filtered by organism. When the application starts, the list is populated automatically.
