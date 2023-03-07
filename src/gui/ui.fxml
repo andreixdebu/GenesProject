@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ListView fx:id="listView" layoutX="14.0" layoutY="186.0" onMouseClicked="#seeAfterSelect" prefHeight="200.0" prefWidth="574.0" />
+      <ComboBox fx:id="comboBox" layoutX="14.0" layoutY="142.0" prefWidth="150.0" promptText="Organisms" />
+      <TextField fx:id="t1" layoutX="176.0" layoutY="142.0" onAction="#seeAfterCombo" promptText="Enter search" />
+      <TextField fx:id="selectShow" layoutX="340.0" layoutY="14.0" onAction="#listViewClicked" prefHeight="26.0" prefWidth="246.0" promptText="Sequence" />
+      <TextArea fx:id="areaSelectShow" layoutX="340.0" layoutY="49.0" onInputMethodTextChanged="#listViewClicked" prefHeight="126.0" prefWidth="246.0" promptText="Function" wrapText="true" />
+      <TextField fx:id="compareSequences" layoutX="14.0" layoutY="14.0" onAction="#compareSequencesFunction" promptText="Compare sequence" />
+      <ListView fx:id="pointMutationsListView" layoutX="14.0" layoutY="49.0" prefHeight="79.0" prefWidth="150.0" />
+   </children>
+</AnchorPane>
