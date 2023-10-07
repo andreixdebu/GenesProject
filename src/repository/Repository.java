@@ -7,7 +7,7 @@ import java.util.Vector;
 
 public class Repository {
 
-    private static final String JDBC_URL = "jdbc:sqlite:E:/2 - MAP/MAP2/LABS/practicalexam-Genes/data/test_db.db";
+    private static final String JDBC_URL = "jdbc:sqlite:/GenesProject/data/test_db.db";
 
     private static Connection conn = null;
 
